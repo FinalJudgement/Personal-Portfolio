@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(128, 128, 128);
+    height: 80px;
+}
+
+#logo{
+background-color: rgb(146, 1, 1);
+color: rgb(241, 241, 241);
+padding:25px;
+border-radius:70%;
+margin: 0 50px;
+}
+
+nav {
+    margin-right: 200px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 90px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+}
