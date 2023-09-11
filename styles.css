@@ -64,6 +64,11 @@ border-radius: 10%;
 
 
 
+.wrapper{
+width: 100%;
+overflow: hidden;
+}
+
 .divider {
     background-color: #7F1DE0;
     width: 200%;
@@ -78,8 +83,7 @@ border-radius: 10%;
             animation-duration: 3s;
             animation-timing-function: linear;
             animation-delay: 0s;
-            animation-iteration-count: infinite;
-            /* animation-direction: alternate; */
+            animation-iteration-count: infinite;  
   }
 
   @keyframes example {
