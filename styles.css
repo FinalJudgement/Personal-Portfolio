@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Averta' ,sans-serif;
 
 }
 
@@ -12,7 +13,7 @@ header {
 
 header span {
     color: white;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Averta' ,sans-serif;
 }
 
 nav {
@@ -21,21 +22,195 @@ nav {
     padding: 50px 80px;
 }
 
-#logo-icon {
-    font-size: 25px;
-    padding: 10px;
-}
-#logo-icon img {
-height: 25px;
-background-color: white;
-padding: 10px;
-border-radius: 10%;
+
+
+ /* Custom css for icon logo */
+ #css-logo-span{
+  margin: 13px;
 }
 
-#logo-icon img:hover {
-    background-color: #34E06D;
-    /* opacity: 80%; */
-    transition: 0.5s;
+#css-logo-container{
+  transform: scale(.4)
+}
+.css-logo {
+  position: absolute;
+}
+
+#div1 {
+  height: 100px;
+  width: 90px;
+  background-color: white;
+}
+#div2 {
+  height: 80px;
+  width: 100px;
+  background-color: #7F1DE0;
+  border-top-left-radius: 100px; 
+  border-bottom-left-radius: 100px;
+  top: 12px;
+  left: 30px;
+}
+
+#div3 {
+  height: 66px;
+  width: 90px;
+  background-color: white;
+  border-top-left-radius: 100px; 
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  top: 19px;
+  left: 40px;
+}
+
+#div4 {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  left: 85px;
+}
+
+#div5 {
+  height: 48px;
+  width: 80px;
+  background-color: #7F1DE0;
+  top: 44px;
+  left: 85px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+#div6 {
+  height: 42px;
+  width: 50px;
+  background-color: #7F1DE0;
+  top: 12px;
+  left: 114px;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+#div7 {
+  height: 31px;
+  width: 50px;
+  background-color: white;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  top: 54px;
+  left: 105px;
+}
+
+#div8 {
+  height: 31px;
+  width: 50px;
+  background-color: white;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  top: 18px;
+  left: 125px;
+}
+
+#div9 {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 100px;
+  top: 43px;
+  left: 60px;
+}
+
+
+
+/* nav hamburger */
+
+#logo-icon{
+  
+}
+
+.burger-container {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 4px;
+  
+}
+
+.burger-container:hover{
+  background-color: #42F64A;
+}
+
+#line1{
+  position: relative;
+  width: 22px;
+  height: 3px;
+  top: 33%;
+  margin: 3px auto;
+  background-color: black;
+  border-radius: 10px;#background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: purple;
+  }
+  
+  .container {
+    position: relative;
+    background-color: white;
+    left: 50px;
+    top: 50px;
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    
+  }
+  
+  #line1{
+    position: relative;
+    width: 22px;
+    height: 3px;
+    top: 33%;
+    margin: 3px auto;
+    background-color: black;
+    border-radius: 10px;
+  }
+  #line2{
+    position: relative;
+    width: 22px;
+    height: 3px;
+    top: 33%;
+    margin: 3px auto;
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  #line3{
+    position: relative;
+    width: 22px;
+    height: 3px;
+    top: 33%;
+    margin: 3px auto;
+    background-color: black;
+    border-radius: 10px;
+  }
+}
+#line2{
+  position: relative;
+  width: 22px;
+  height: 3px;
+  top: 33%;
+  margin: 3px auto;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#line3{
+  position: relative;
+  width: 22px;
+  height: 3px;
+  top: 33%;
+  margin: 3px auto;
+  background-color: black;
+  border-radius: 10px;
 }
 
 .bot-nav {
@@ -45,25 +220,69 @@ border-radius: 10%;
     margin: 0 0 100px 0;
 }
 
+
+/* custom splash art photo */
 #logo-art {
+    height: 280px;
+    width: 200px;;
     background-image: url(Images/LosPic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 20%;
     color: rgb(0, 0, 0);
-    padding: 120px 100px;
     border-radius: 50%;
     background-color:white;
     align-self: center;
+    margin: 20px;
 }
 
-#greeting {
-    font-size: 100px;
+.greeting-container{
+  width: 200px;
+  height: 100px;
+  
+}
+
+.greeting1 {
+    position: absolute;    
+    font-size: 50px;
+    margin: 20px;
+    opacity: 0;
+    animation-name: greet1;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: 1; 
+  }
+
+  @keyframes greet1 {
+    0%   {opacity: 0;}
+    20%   {opacity: 1;}
+    80%   {opacity: 1;}
+    100% {opacity: 0;}
+  }
+
+.greeting2 {
+    position: absolute;    
+    font-size: 50px;
+    margin: 20px;
+    opacity: 1;
+    animation-name: greet2;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: 1; 
+}
+
+@keyframes greet2 {
+  0%   {opacity: 0;}
+  50%  {opacity: 0;}
+  80%  {opacity: 0;}
+  100% {opacity: 1;}
 }
 
 
 
-
+/* Divider with animation */
 .wrapper{
 width: 100%;
 overflow: hidden;
@@ -93,97 +312,54 @@ overflow: hidden;
   }
 
 
-  /* Custom css for icon logo */
-  #css-logo-span{
-    margin: 13px;
-  }
+ 
+main{
+  margin:0 10%;
+}
+.btn-begin {
+  width: 300px;
+  height: 100px;
+  margin: 50px auto;
+}
 
-  #css-logo-container{
-    transform: scale(.4)
-  }
-  .css-logo {
-    position: absolute;
-  }
+.btn-begin button{
+  width: 100%;
+  height: 100%;
+  background-color: #A765EA;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.btn-begin button:hover{
+  background-color: #3A0D66;
+}
+
+#about-me{
+  background-color: White;
+  border-radius: 0 0 10px 10px;
+  width: 40%;
+  padding-bottom: 5px;
+  box-shadow: 2px 2px 8px 1px;
+}
+
+#about-me h2{
+  text-align: center;
+  width: 50%;
+  height: auto;
+  background-color: #A765EA;
+  color: rgb(46, 46, 46);
+
+}
+
+#about-me p {
+  margin: 30px;
+  font-size: 1.2rem;
+}
+
+footer {
+  width: 80%;
+  height: 100px;
+  margin: 50px auto 0;
+  background-color: #3A0D66;
   
-  #div1 {
-    height: 100px;
-    width: 90px;
-    background-color: white;
-  }
-  #div2 {
-    height: 80px;
-    width: 100px;
-    background-color: #7F1DE0;
-    border-top-left-radius: 100px; 
-    border-bottom-left-radius: 100px;
-    top: 12px;
-    left: 30px;
-  }
-  
-  #div3 {
-    height: 66px;
-    width: 90px;
-    background-color: white;
-    border-top-left-radius: 100px; 
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    top: 19px;
-    left: 40px;
-  }
-  
-  #div4 {
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    left: 85px;
-  }
-  
-  #div5 {
-    height: 48px;
-    width: 80px;
-    background-color: #7F1DE0;
-    top: 44px;
-    left: 85px;
-    border-bottom-right-radius: 100px;
-    border-top-right-radius: 100px;
-  }
-  
-  #div6 {
-    height: 42px;
-    width: 50px;
-    background-color: #7F1DE0;
-    top: 12px;
-    left: 114px;
-    border-bottom-left-radius: 100px;
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-  }
-  
-  #div7 {
-    height: 31px;
-    width: 50px;
-    background-color: white;
-    border-bottom-right-radius: 100px;
-    border-top-right-radius: 100px;
-    top: 54px;
-    left: 105px;
-  }
-  
-  #div8 {
-    height: 31px;
-    width: 50px;
-    background-color: white;
-    border-bottom-left-radius: 100px;
-    border-top-left-radius: 100px;
-    top: 18px;
-    left: 125px;
-  }
-  
-  #div9 {
-    height: 20px;
-    width: 20px;
-    background-color: white;
-    border-radius: 100px;
-    top: 43px;
-    left: 60px;
-  }
+}
