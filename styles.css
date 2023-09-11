@@ -95,8 +95,7 @@ overflow: hidden;
 
   /* Custom css for icon logo */
   #css-logo-span{
-    position: relative;
-    top: 13px;
+    margin: 13px;
   }
 
   #css-logo-container{
