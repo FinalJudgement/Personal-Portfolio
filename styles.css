@@ -77,59 +77,61 @@ border-radius: 10%;
 
 
   /* Custom css for icon logo */
-  /* div {
+  #css-logo-container{
+    transform: scale(.4)
+  }
+  .css-logo {
     position: absolute;
   }
   
   #div1 {
-    
     height: 100px;
-    width: 80px;
-    background-color: black;
+    width: 90px;
+    background-color: white;
   }
   #div2 {
     height: 80px;
     width: 100px;
-    background-color: white;
+    background-color: #7F1DE0;
     border-top-left-radius: 100px; 
     border-bottom-left-radius: 100px;
-    top: 18px;
+    top: 12px;
     left: 30px;
   }
   
   #div3 {
     height: 66px;
     width: 90px;
-    background-color: black;
+    background-color: white;
     border-top-left-radius: 100px; 
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
-    top: 25px;
+    top: 19px;
     left: 40px;
   }
   
   #div4 {
     height: 100px;
     width: 100px;
-    background-color: black;
+    background-color: white;
     left: 85px;
   }
   
   #div5 {
     height: 48px;
     width: 80px;
-    background-color: white;
-    top: 50px;
+    background-color: #7F1DE0;
+    top: 44px;
     left: 85px;
     border-bottom-right-radius: 100px;
     border-top-right-radius: 100px;
   }
   
   #div6 {
-    height: 48px;
+    height: 42px;
     width: 50px;
-    background-color: white;
-    top: 18px;
+    background-color: #7F1DE0;
+    top: 12px;
     left: 114px;
     border-bottom-left-radius: 100px;
     border-top-left-radius: 100px;
@@ -137,22 +139,22 @@ border-radius: 10%;
   }
   
   #div7 {
-    height: 28px;
+    height: 31px;
     width: 50px;
-    background-color: black;
+    background-color: white;
     border-bottom-right-radius: 100px;
     border-top-right-radius: 100px;
-    top: 63px;
+    top: 54px;
     left: 105px;
   }
   
   #div8 {
     height: 31px;
     width: 50px;
-    background-color: black;
+    background-color: white;
     border-bottom-left-radius: 100px;
     border-top-left-radius: 100px;
-    top: 26px;
+    top: 18px;
     left: 125px;
   }
   
@@ -161,6 +163,6 @@ border-radius: 10%;
     width: 20px;
     background-color: white;
     border-radius: 100px;
-    top: 50px;
+    top: 43px;
     left: 60px;
-  } */
+  }
